@@ -1,0 +1,131 @@
+/home/vagrant/mbed-cloud-client-example/__x86_x64_NativeLinux_mbedtls/Release/palTests.elf
+Mount point for primary partition: ./pal
+Mount point for secondary partition: ./pal
+*****PAL_TEST_START*****
+Unity test run 1 of 1
+Mount point for primary partition: ./pal
+Mount point for secondary partition: ./pal
+reading DATA into test
+*****PAL_TEST_START*****
+Unity test run 1 of 1
+<***UnityTest***>TEST(pal_SOTP, SW_HW_RoT)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_SOTP, timeInit)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_SOTP, random)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, RealTimeClockTest1)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, SemaphoreWaitForever)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osKernelSysTick_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osKernelSysTick64_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osKernelSysTickMicroSec_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osKernelSysMilliSecTick_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osKernelSysTickFrequency_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_osDelay_Unity)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, BasicTimeScenario)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, TimerUnityTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, AtomicIncrementUnityTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, GetDeviceKeyTest_CMAC)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, GetDeviceKeyTest_HMAC_SHA256)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, PrimitivesUnityTest1)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, PrimitivesUnityTest2)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, SemaphoreBasicTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, RandomUnityTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, loopRandomBigNumber)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_init_test)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, Recursive_Mutex_Test)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, OsWeakSetTime_Forword)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, OsWeakSetTime_Backword)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, OsWeakSetTime_minimalStoredLag)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, OsStrongSetTime)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_rtc)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_rtos, pal_noise)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, socketUDPCreationOptionsTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, basicTCPclientSendRecieve)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, basicUDPclientSendRecieve)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, basicSocketScenario3)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, tProvUDPTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, nonBlockingAsyncTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, ServerSocketScenario)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/Networking/pal_socket_test.c:709:TEST(pal_socket, ServerSocketScenario):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFF000F
+<***UnityTest***>TEST(pal_socket, socketTCPBufferedSmall)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, socketTCPBufferedLarge)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, socketUDPBufferedSmall)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, socketUDPBufferedLarge)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, getAddressInfoAsync)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_socket, keepaliveOn)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/Networking/pal_socket_test.c:1496:TEST(pal_socket, keepaliveOn):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFF0003
+<***UnityTest***>TEST(pal_socket, keepaliveOff)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/Networking/pal_socket_test.c:1496:TEST(pal_socket, keepaliveOff):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFF0003
+<***UnityTest***>TEST(pal_crypto, AES_CTR)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, AES_ECB)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, AES_CCM)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, SHA256)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, md)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, CTR_DRBG)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, CMAC_one_shot)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, CMAC_Iterative)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, HMAC_SHA256_one_shot)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, ASN1)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, X509_Parse)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, X509_ReadAttributes)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, X509_Verify)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, ECKey_checkKey)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, ECKey_parseKey)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, X509_tbs_hash)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_crypto, ECKey_GenerateKeys)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, SDFormat)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, rootDirectoryTests)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, directoryTests)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, FilesTests)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, FilesTestsSeek)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, FilesPermission_read_only)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, FilesPermission_read_write)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, FilesPermission_read_write_trunc)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, create_write_and_read_pal_file)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, WriteInTheMiddle)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_fileSystem, SequentialWriteAndRead)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_writeSmallChunk_5b)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_writeUnaligned_1001b)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_1k)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_2k)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_4k)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_8k)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_16k)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_Read)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_stressTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_update, pal_update_4k_write_1k_4_times)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_internalFlash, BasicTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_internalFlash, NegativeTest)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsConfiguration)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsInitTLS)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsPrivateAndPublicKeys)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsCACertandPSK)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsHandshakeUDPTimeOut)</***UnityTest***> <***UnityResult***>PASS</***UnityResult***>
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:314:TEST(pal_tls, tlsHandshakeTCP):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_nonBlocking)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:361:TEST(pal_tls, tlsHandshakeTCP_nonBlocking):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFF00006
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_FutureLWM2M)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:810:TEST(pal_tls, tlsHandshakeTCP_FutureLWM2M):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_FutureLWM2M_NoTimeUpdate)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:949:TEST(pal_tls, tlsHandshakeTCP_FutureLWM2M_NoTimeUpdate):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_ExpiredLWM2MCert)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:1108:TEST(pal_tls, tlsHandshakeTCP_ExpiredLWM2MCert):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_ExpiredServerCert_Trusted)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:1297:TEST(pal_tls, tlsHandshakeTCP_ExpiredServerCert_Trusted):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_FutureTrustedServer_NoTimeUpdate)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:1530:TEST(pal_tls, tlsHandshakeTCP_FutureTrustedServer_NoTimeUpdate):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeTCP_NearPastTrustedServer_NoTimeUpdate)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:1753:TEST(pal_tls, tlsHandshakeTCP_NearPastTrustedServer_NoTimeUpdate):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, TCPHandshakeWhileCertVerify_threads)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:2126:TEST(pal_tls, TCPHandshakeWhileCertVerify_threads):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF0
+<***UnityTest***>TEST(pal_tls, tlsHandshakeUDP)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:224:TEST(pal_tls, tlsHandshakeUDP):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+<***UnityTest***>TEST(pal_tls, tlsHandshakeUDP_NonBlocking)</***UnityTest***>/home/vagrant/mbed-cloud-client-example/mbed-cloud-client/mbed-client-pal/Test/PAL_Modules/TLS/pal_tls_test.c:224:TEST(pal_tls, tlsHandshakeUDP_NonBlocking):
+===!!!===> <***UnityResult***>FAIL</***UnityResult***> <===!!!===: Expected 0x00000000 Was 0xFFFFFFF5
+
+
+-----------------------
+99 Tests 14 Failures 0 Ignored
+FAIL
+*****PAL_TEST_END*****
+
+Process finished with exit code 0
